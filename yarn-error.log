@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-swiper --save
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\mysuite\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Users\mysuite\AppData\Roaming\Composer\vendor\bin;C:\Users\mysuite\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mysuite\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.11.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\mysuite\Documents\URU\Examples\reac-native-other-components\node_modules\@babel\plugin-syntax-class-properties\lib'
+
+npm manifest: 
+  {
+    "name": "empty-project-template",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
