@@ -5,17 +5,9 @@ import FatherComponent from "./components/FatherComponent";
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <FatherComponent />
       </View>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#fff",
-    alignItems: "center",
-    marginTop: 50
-  }
-});
