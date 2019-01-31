@@ -9,12 +9,12 @@ export default class FatherComponent extends React.Component {
   render() {
     return (
       <View>
-        <RNElements />
-        {/* <View style={styles.container}> */}
-          {/* <SwitchPickerAndAlert /> */}
-          {/* <TouchableAndModalCall /> */}
-          {/* <Storage /> */}
-        {/* </View> */}
+        {/* <RNElements /> */}
+        {/* <View style={styles.container}>
+          <SwitchPickerAndAlert />
+          <TouchableAndModalCall />
+          <Storage />
+        </View> */}
       </View>
     );
   }
